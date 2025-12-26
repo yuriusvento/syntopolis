@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Манифест</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #111;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    body.stackedit {
+      display: flex;
+      justify-content: center;
+    }
+
+    .stackedit__html {
+      max-width: 720px;
+      padding: 48px 32px 64px;
+      line-height: 1.65;
+      font-size: 18px;
+    }
+
+    /* Заголовки */
+    h1, h2, h3, h4 {
+      font-weight: normal;
+      margin-top: 2.5em;
+      margin-bottom: 0.8em;
+      line-height: 1.3;
+    }
+
+    h1 { font-size: 32px; }
+    h2 { font-size: 26px; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 18px; }
+
+    /* Текст */
+    p {
+      margin: 1.2em 0;
+    }
+
+    /* Списки */
+    ul, ol {
+      margin: 1.2em 0 1.2em 1.5em;
+    }
+
+    li {
+      margin: 0.4em 0;
+    }
+
+    /* Ссылки */
+    a {
+      color: #111;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    /* Цитаты */
+    blockquote {
+      margin: 2em 0;
+      padding-left: 1.2em;
+      border-left: 2px solid #111;
+      color: #444;
+    }
+
+    /* Код */
+    code,
+
